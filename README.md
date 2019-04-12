@@ -1,9 +1,13 @@
 # cookie-audit
 
+A simple server to receive data send by [cookie-collector Chrome Extension](https://github.com/chaoyangnz/cookie-collector) and generate a list of cookies which have risks under the Safari ITP 2.1
+
 ## install & run
 
-`npm install`
-`node index.js`
+```
+npm install
+node index.js
+```
 
 ## visit http://localhost:9000
 
