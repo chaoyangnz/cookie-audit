@@ -1,0 +1,26 @@
+{
+  "name": "cookie-audit",
+  "version": "1.0.0",
+  "description": "Cookie Audit server which collects data from cookie collector and generates reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chaoyangnz/cookie-audit.git"
+  },
+  "author": "Chao Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaoyangnz/cookie-audit/issues"
+  },
+  "homepage": "https://github.com/chaoyangnz/cookie-audit#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie": "^0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "moment": "^2.24.0"
+  }
+}
